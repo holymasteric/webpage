@@ -1,0 +1,5 @@
+# ignore photos
+  *.jpg
+
+# ignore backup files
+  *~
