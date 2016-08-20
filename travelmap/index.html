@@ -52,12 +52,15 @@ function initialize() {
           e.feature.setProperty('featureNum',features.length-1);
         }
   });
+    map.data.setStyle(function(feature) {
+    return {icon:feature.getProperty('icon')};
+  });
   // When the user clicks, open an infowindow
   map.data.addListener('click', function(event) {
           var myHTML = event.feature.getProperty("City");
           var myImage = event.feature.getProperty("Image");
           var thumbnail = document.images.thmb;
-      infowindow.setContent(myHTML + "<br><img width='80' img src='"+myImage +"' alt='image in infowindow'>");
+      infowindow.setContent(myHTML + "<br><img width='100' img src='"+myImage +"' alt='image in infowindow'>");
           infowindow.setPosition(event.feature.getGeometry().get());
       infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
           infowindow.open(map);

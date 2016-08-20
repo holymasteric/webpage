@@ -403,8 +403,48 @@ var travel =
             "Image" : "images/diamond_head.jpg"
          },
          "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -81.468300,28.475800
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Universal Studios Orlando, FL",
+            "Image" : "images/universal_studios_orlando.jpg"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -118.353400,34.138100
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Universal Studios Hollywood, CA",
+            "Image" : "images/universal_studios_hollywood.jpg"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -0.127800,51.507400
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "London, England",
+            //"Image" : "images/universal_studios_hollywood.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
       }
-
    ],
    "type" : "FeatureCollection"
 } 
