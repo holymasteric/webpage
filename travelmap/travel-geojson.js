@@ -439,7 +439,67 @@ var travel =
          },
          "properties" : {
             "City" : "London, England",
-            //"Image" : "images/universal_studios_hollywood.jpg",
+            "Image" : "images/london.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               2.352200,48.856600
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Paris, France",
+            "Image" : "images/paris.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -6.260300,53.349800
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Dublin, Ireland",
+            "Image" : "images/dublin.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               13.405000,52.520000
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Berlin, Germany", 
+            "Image" : "images/berlin.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               -74.005900,40.712800
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "New York City, NY", 
+            "Image" : "images/new_york.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
