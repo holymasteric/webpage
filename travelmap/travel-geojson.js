@@ -504,7 +504,67 @@ var travel =
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
          "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               126.978000,37.566500
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Seoul, Korea", 
+            "Image" : "images/seoul.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+               139.691700,35.689500
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Tokyo, Japan", 
+            "Image" : "images/tokyo.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+                -3.188300,55.953300
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Edinburgh, Scotland", 
+            "Image" : "images/edinburgh.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
+      },
+      {
+         "geometry" : {
+            "coordinates" : [
+                12.496400,41.902800
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "City" : "Rome, Italy", 
+            "Image" : "images/rome.jpg",
+            //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
+            "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
+         },
+         "type" : "Feature"
       }
    ],
    "type" : "FeatureCollection"
-} 
+}
