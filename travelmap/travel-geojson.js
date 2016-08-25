@@ -1,6 +1,60 @@
 var travel =
 {
    "features" : [
+   	  {
+         "geometry" : {
+            "coordinates" : [
+            	 -122.578100,37.895400
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "city" : "Muir Woods, CA",
+            "image" : "images/muir_woods.jpg",
+            "link" : "https://www.flickr.com/gp/29615638@N04/812rFZ"
+         },
+         "type" : "Feature"
+      },
+   	  {
+         "geometry" : {
+            "coordinates" : [
+            	-122.663900,38.013300
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "city" : "San Geronimo, CA",
+            "image" : "images/san_geronimo.jpg",
+            "link" : "https://www.flickr.com/gp/29615638@N04/XKWCz6"
+         },
+         "type" : "Feature"
+      },
+   	  {
+         "geometry" : {
+            "coordinates" : [
+            	-122.010325,41.243424
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "city" : "McCloud Falls, CA",
+            "image" : "images/mccloud.jpg"
+         },
+         "type" : "Feature"
+      },
+   	  {
+         "geometry" : {
+            "coordinates" : [
+            	-122.310600,41.309900
+            ],
+            "type" : "Point"
+         },
+         "properties" : {
+            "city" : "Mt. Shasta, CA",
+            "image" : "images/mt_shasta.jpg"
+         },
+         "type" : "Feature"
+      },
       {
          "geometry" : {
             "coordinates" : [
@@ -9,8 +63,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Hong Kong, China",
-            "Image" : "images/hong_kong.jpg"
+            "city" : "Hong Kong, China",
+            "image" : "images/hong_kong.jpg"
          },
          "type" : "Feature"
       },
@@ -22,8 +76,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Portland, OR",
-            "Image" : "images/portland.jpg"
+            "city" : "Portland, OR",
+            "image" : "images/portland.jpg"
          },
          "type" : "Feature"
       },
@@ -35,8 +89,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Taipei, Taiwan",
-            "Image" : "images/taipei.jpg"
+            "city" : "Taipei, Taiwan",
+            "image" : "images/taipei.jpg"
          },
          "type" : "Feature"
       },
@@ -48,8 +102,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Honolulu, HI",
-            "Image" : "images/honolulu.jpg"
+            "city" : "Honolulu, HI",
+            "image" : "images/honolulu.jpg"
          },
          "type" : "Feature"
       },
@@ -61,8 +115,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Reno, NV",
-            "Image" : "images/reno.jpg"
+            "city" : "Reno, NV",
+            "image" : "images/reno.jpg"
          },
          "type" : "Feature"
       },
@@ -74,8 +128,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Fort Bragg, CA",
-            "Image" : "images/fort_bragg.jpg"
+            "city" : "Fort Bragg, CA",
+            "image" : "images/fort_bragg.jpg"
          },
          "type" : "Feature"
       },
@@ -87,8 +141,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Orlando, FL",
-            "Image" : "images/orlando.jpg"
+            "city" : "Orlando, FL",
+            "image" : "images/orlando.jpg"
          },
          "type" : "Feature"
       },
@@ -100,8 +154,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Las Vegas, NV",
-            "Image" : "images/las_vegas.jpg"
+            "city" : "Las Vegas, NV",
+            "image" : "images/las_vegas.jpg"
          },
          "type" : "Feature"
       },
@@ -113,8 +167,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Los Angeles, CA",
-            "Image" : "images/los_angeles.jpg"
+            "city" : "Los Angeles, CA",
+            "image" : "images/los_angeles.jpg"
          },
          "type" : "Feature"
       },
@@ -126,8 +180,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "San Digeo, CA",
-            "Image" : "images/san_diego.jpg"
+            "city" : "San Digeo, CA",
+            "image" : "images/san_diego.jpg"
          },
          "type" : "Feature"
       },
@@ -139,8 +193,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Enseñada, Mexico",
-            "Image" : "images/ensenada.jpg"
+            "city" : "Enseñada, Mexico",
+            "image" : "images/ensenada.jpg"
          },
          "type" : "Feature"
       },
@@ -152,8 +206,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Catalina Island, CA",
-            "Image" : "images/catalina_island.jpg"
+            "city" : "Catalina Island, CA",
+            "image" : "images/catalina_island.jpg"
          },
          "type" : "Feature"
       },
@@ -165,8 +219,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Macau, China",
-            "Image" : "images/macau.jpg"
+            "city" : "Macau, China",
+            "image" : "images/macau.jpg"
          },
          "type" : "Feature"
       },
@@ -178,8 +232,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "San Francisco, CA",
-            "Image" : "images/san_francisco.jpg"
+            "city" : "San Francisco, CA",
+            "image" : "images/san_francisco.jpg"
          },
          "type" : "Feature"
       },
@@ -191,8 +245,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Sacramento, CA",
-            "Image" : "images/sacramento.jpg"
+            "city" : "Sacramento, CA",
+            "image" : "images/sacramento.jpg"
          },
          "type" : "Feature"
       },
@@ -204,21 +258,21 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Truckee, CA",
-            "Image" : "images/truckee.jpg"
+            "city" : "Truckee, CA",
+            "image" : "images/truckee.jpg"
          },
          "type" : "Feature"
       },
       {
          "geometry" : {
             "coordinates" : [
-               -120.183300,42.326500
+               -122.875600,42.326500
             ],
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Medford, OR",
-            "Image" : "images/medford.jpg"
+            "city" : "Medford, OR",
+            "image" : "images/medford.jpg"
          },
          "type" : "Feature"
       },
@@ -230,8 +284,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Grants Pass, OR",
-            "Image" : "images/grants_pass.jpg"
+            "city" : "Grants Pass, OR",
+            "image" : "images/grants_pass.jpg"
          },
          "type" : "Feature"
       },
@@ -243,8 +297,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Redding, CA",
-            "Image" : "images/redding.jpg"
+            "city" : "Redding, CA",
+            "image" : "images/redding.jpg"
          },
          "type" : "Feature"
       },
@@ -256,8 +310,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Crater Lake, OR",
-            "Image" : "images/crater_lake.jpg"
+            "city" : "Crater Lake, OR",
+            "image" : "images/crater_lake.jpg"
          },
          "type" : "Feature"
       },
@@ -269,8 +323,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Crescent City, CA",
-            "Image" : "images/crescent_city.jpg"
+            "city" : "Crescent City, CA",
+            "image" : "images/crescent_city.jpg"
          },
          "type" : "Feature"
       },
@@ -282,8 +336,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Mendocino, CA",
-            "Image" : "images/mendocino.jpg"
+            "city" : "Mendocino, CA",
+            "image" : "images/mendocino.jpg"
          },
          "type" : "Feature"
       },
@@ -295,8 +349,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Monterey, CA",
-            "Image" : "images/monterey.jpg"
+            "city" : "Monterey, CA",
+            "image" : "images/monterey.jpg"
          },
          "type" : "Feature"
       },
@@ -308,8 +362,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Santa Cruz, CA",
-            "Image" : "images/santa_cruz.jpg"
+            "city" : "Santa Cruz, CA",
+            "image" : "images/santa_cruz.jpg"
          },
          "type" : "Feature"
       },
@@ -321,8 +375,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "San Luis Obispo, CA",
-            "Image" : "images/san_luis_obispo.jpg"
+            "city" : "San Luis Obispo, CA",
+            "image" : "images/san_luis_obispo.jpg"
          },
          "type" : "Feature"
       },
@@ -334,8 +388,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Santa Barbara, CA",
-            "Image" : "images/santa_barbara.jpg"
+            "city" : "Santa Barbara, CA",
+            "image" : "images/santa_barbara.jpg"
          },
          "type" : "Feature"
       },
@@ -347,8 +401,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Anaheim, CA",
-            "Image" : "images/anaheim.jpg"
+            "city" : "Anaheim, CA",
+            "image" : "images/anaheim.jpg"
          },
          "type" : "Feature"
       },
@@ -360,8 +414,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Carlsbad, CA",
-            "Image" : "images/carlsbad.jpg"
+            "city" : "Carlsbad, CA",
+            "image" : "images/carlsbad.jpg"
          },
          "type" : "Feature"
       },
@@ -373,8 +427,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Irvine, CA",
-            "Image" : "images/irvine.jpg"
+            "city" : "Irvine, CA",
+            "image" : "images/irvine.jpg"
          },
          "type" : "Feature"
       },
@@ -386,8 +440,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Riverside, CA",
-            "Image" : "images/riverside.jpg"
+            "city" : "Riverside, CA",
+            "image" : "images/riverside.jpg"
          },
          "type" : "Feature"
       }, 
@@ -399,8 +453,9 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Diamond Head, HI",
-            "Image" : "images/diamond_head.jpg"
+            "city" : "Diamond Head, HI",
+            "image" : "images/diamond_head.jpg",
+            "link" : "http://youtube.com"
          },
          "type" : "Feature"
       },
@@ -412,8 +467,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Universal Studios Orlando, FL",
-            "Image" : "images/universal_studios_orlando.jpg"
+            "city" : "Universal Studios Orlando, FL",
+            "image" : "images/universal_studios_orlando.jpg"
          },
          "type" : "Feature"
       },
@@ -425,8 +480,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Universal Studios Hollywood, CA",
-            "Image" : "images/universal_studios_hollywood.jpg"
+            "city" : "Universal Studios Hollywood, CA",
+            "image" : "images/universal_studios_hollywood.jpg"
          },
          "type" : "Feature"
       },
@@ -438,8 +493,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "London, England",
-            "Image" : "images/london.jpg",
+            "city" : "London, England",
+            "image" : "images/london.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -453,8 +508,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Paris, France",
-            "Image" : "images/paris.jpg",
+            "city" : "Paris, France",
+            "image" : "images/paris.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -468,8 +523,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Dublin, Ireland",
-            "Image" : "images/dublin.jpg",
+            "city" : "Dublin, Ireland",
+            "image" : "images/dublin.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -483,8 +538,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Berlin, Germany", 
-            "Image" : "images/berlin.jpg",
+            "city" : "Berlin, Germany", 
+            "image" : "images/berlin.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -498,8 +553,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "New York City, NY", 
-            "Image" : "images/new_york.jpg",
+            "city" : "New York City, NY", 
+            "image" : "images/new_york.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -513,8 +568,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Seoul, Korea", 
-            "Image" : "images/seoul.jpg",
+            "city" : "Seoul, Korea", 
+            "image" : "images/seoul.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -528,8 +583,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Tokyo, Japan", 
-            "Image" : "images/tokyo.jpg",
+            "city" : "Tokyo, Japan", 
+            "image" : "images/tokyo.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -543,8 +598,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Edinburgh, Scotland", 
-            "Image" : "images/edinburgh.jpg",
+            "city" : "Edinburgh, Scotland", 
+            "image" : "images/edinburgh.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },
@@ -558,8 +613,8 @@ var travel =
             "type" : "Point"
          },
          "properties" : {
-            "City" : "Rome, Italy", 
-            "Image" : "images/rome.jpg",
+            "city" : "Rome, Italy", 
+            "image" : "images/rome.jpg",
             //"icon" : "http://maps.google.com/mapfiles/kml/paddle/blu-circle.png"
             "icon" : "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
          },

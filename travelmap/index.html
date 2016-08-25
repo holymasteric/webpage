@@ -57,16 +57,17 @@ function initialize() {
   });
   // When the user clicks, open an infowindow
   map.data.addListener('click', function(event) {
-          var myHTML = event.feature.getProperty("City");
-          var myImage = event.feature.getProperty("Image");
+          var myCity = event.feature.getProperty("city");
+          var myImage = event.feature.getProperty("image");
+          var myLink = event.feature.getProperty("link");
           var thumbnail = document.images.thmb;
-      infowindow.setContent(myHTML + "<br><img width='100' img src='"+myImage +"' alt='image in infowindow'>");
+      infowindow.setContent("<p align='middle'>" + myCity + "<br><a href='" + myLink + "' target='_blank'><img width='150' align='middle' img src='"+myImage +"' alt='image in infowindow'>");
           infowindow.setPosition(event.feature.getGeometry().get());
       infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
           infowindow.open(map);
   });    
    map.data.addGeoJson(travel);
-  
+
   
 }
 
